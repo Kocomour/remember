@@ -204,11 +204,11 @@ If that's not possible, and your text doesn't fit in its box, you can modify att
 
 <panel w=500 h=450 fadeInOn="flip_spaced_rep">
 <pic src="pics/intro0.png" sx=950 sy=0></pic>
-<words x=10 y=10 w=430 h=60>
+<words x=10 y=10 w=430 h=60 style="font-size:23px">
 	Je to <i>super</i>.
 	Začátkem tohoto roku jsem se začal učit francouzsky metodou intervalového opakování.  
 </words>
-<words x=30 y=350 w=430 h=60>
+<words x=30 y=350 w=430 h=60 style="font-size:23px">
 	Za dva <i>měsíce</i> jsem se naučil víc slov než za dva <i>roky</i> francouzštiny na střední škole.
 </words>
 </panel>
@@ -326,7 +326,7 @@ If that's not possible, and your text doesn't fit in its box, you can modify att
 
 <panel w=550 h=300>
 <pic src="pics/intro0.png" sx=0 sy=1600></pic>
-<words x=7 y=23 w=310 no-bg style="font-size:16px">
+<words x=7 y=23 w=310 no-bg style="font-size:17px">
     Intervalové opakování není žádný "trik na zlepšení paměti".
 	Není to "life hack" ani "zlepšovák".
 </words>
@@ -648,7 +648,7 @@ If that's not possible, and your text doesn't fit in its box, you can modify att
 <sim x=80 y=0 w=440 h=300 src="sims/singlecard/?card=guessgap"></sim>
 </panel>
 
-<panel fadeInOn="flip_guessgap" w=600 h=120>
+<panel fadeInOn="flip_guessgap" w=600 h=150>
 <words w=600 x=-15 y=0 no-bg>
 	Což je velmi neintuitivní!
 	Můžete se sami přesvědčit, že je to pravda, tím, že si vyzkoušíte simulaci níže.
@@ -918,7 +918,7 @@ Takhle vypadá herní kalendář, který se opakuje od začátku každých 64 dn
 </words>
 </panel>
 
-<panel w=600 h=100>
+<panel w=600 h=108>
 <words w=600 x=-15 no-bg>
 	Pokusím se vám to předvést.
 	Tady je simulace Leitnerovy krabičky <i>krok za krokem</i>:
@@ -982,11 +982,11 @@ Takhle vypadá herní kalendář, který se opakuje od začátku každých 64 dn
 <sim x=0 y=0 w=600 h=470 src="sims/leitner/?mode=2"></sim>
 </panel>
 
-<panel w=600 h=145>
+<panel w=600 h=130>
 <words w=600 x=-15 no-bg>
 	Tak to je všechno. Takhle se můžete vědomě <i>rozhodnout</i>, co si uložíte do dlouhodobé paměti.
 </words>
-<words w=600 x=-15 y=50 no-bg>
+<words w=600 x=-15 y=60 no-bg>
 	Nechme to chvíli vstřebat. Dejte si pauzu a zopakujte si, co jste se zatím naučili:
 </words>
 </panel>
@@ -1054,7 +1054,7 @@ Takhle vypadá herní kalendář, který se opakuje od začátku každých 64 dn
 	PROPOJENÉ
 </words>
 <words x=262 y=298 w=200 no-bg class="comic_text" style="color:#fff; font-size:30px">
-	&amp; SMYSLUPLNÉ
+	SMYSLUPLNÉ
 </words>
 </panel>
 
@@ -1394,8 +1394,8 @@ Remember, if your translated word is too big, you can modify the CSS! (especiall
 <words x=389 y=290 w=100 style="text-align:left" no-bg class="comic_text">
 	všechny pokémony
 </words>
-<words x=80 y=380 w=380 h=30 style="font-size:22px">
-	Teď si napiště <i>svou</i> odpověď na zadní stranu:
+<words x=80 y=380 w=380 h=30 style="font-size:20px">
+	Teď si napište <i>svou</i> odpověď na zadní stranu:
 </words>
 </panel>
 
@@ -2093,7 +2093,7 @@ WE'VE STILL GOT THE INTERFACE LABELS & FLASHCARDS TO TRANSLATE
 	načasování opakování:
 </span>
 <span id="ebbinghaus_auto">
-	automaticky zoptimalizovat!
+	zoptimalizovat!
 </span>
 
 <!-- Leitner Calendar -->
@@ -2147,7 +2147,7 @@ When you translate, make sure the [N] is there if it was there in the original.
 	[N] nových kartiček za den
 </span>
 <span id="leitner_slider_wrong">
-	odpověď na [N]% kartiček <i>špatně</i>
+	<i>špatná</i> odpověď na [N]% kartiček 
 </span>
 <span id="leitner_reset">
 	RESTARTOVAT
@@ -2163,10 +2163,10 @@ When you translate, make sure the [N] is there if it was there in the original.
 	-->
 </span>
 <span id="type_placeholder">
-	tady napište svou odpověď
+	sem napište odpověď
 </span>
 <span id="type_suggestions">
-	nebo si vyberte jednu z těchto možností:
+	nebo si vyberte jednu z možností:
 </span>
 
 <!-- Suggestions -->
@@ -2313,7 +2313,7 @@ Good luck!
 </span>
 <span id="flashcard_spaced_rep_back">
 	<div class="fcard_bg" src="pics/fcards_intro.png" sx=0 sy=0></div>
-	<div class="fcard_center" style="color:white; font-size:74px; height:1.6em; line-height:0.8em;">
+	<div class="fcard_center" style="color:white; font-size:55px; height:1.6em; line-height:0.8em;">
 	INTERVALOVÉ OPAKOVÁNÍ
 	</div>
 </span>
@@ -2342,7 +2342,7 @@ Good luck!
 	<div id="fc_words" class="fcard_center" style="height:4.4em">
 	V řecké mytologii
 	bohyně <span class="underline">____</span>
-	byla matkou bohyní
+	je matkou bohyní
 	<span class="underline">________</span>
 	</div>
 </span>
@@ -2397,7 +2397,7 @@ Good luck!
 </span>
 <span id="flashcard_sci_c_back">
 	<div class="fcard_bg" src="pics/fcards0.png" sx=400 sy=240></div>
-	<div id="fc_words" style="position: absolute; width: 360px; top: 120px; left: 20px; font-size:20px; line-height: 1.1em;">
+	<div id="fc_words" style="position: absolute; width: 360px; top: 120px; left: 30px; font-size:20px; line-height: 1.1em;">
 	(Pozn.: intervaly mezi opakováními se <i>prodlužují</i>)
 	</div>
 </span>
@@ -2408,7 +2408,7 @@ Good luck!
 <!-- - - - - - - - - - - - -->
 
 <span id="flashcard_leit_a_front">
-	<div id="fc_words" class="fcard_center" style="height:4.5em">
+	<div id="fc_words" class="fcard_center" style="height:5.5em">
 	Při použití Leitnerovy krabičky <span class="underline">______</span>
 	interval (počet dní mezi opakováními) s každou další úrovní
 	</div>
@@ -2423,7 +2423,7 @@ Good luck!
 	<div id="fc_words" class="fcard_center" style="height:4.5em">
 	Leitnerova krabička:
 	<br>
-	když kartičku zodpovÍTE<i>správně</i>, posuňte ji<span class="underline">______</span> .
+	když kartičku zodpovíte<i>správně</i>, posuňte ji<span class="underline">______</span> .
 	</div>
 </span>
 <span id="flashcard_leit_b_back">
@@ -2469,7 +2469,7 @@ Good luck!
 	</div>
 </span>
 <span id="flashcard_mitochondria_all_back">
-	<div class="fcard_center" style="height:220px; font-size:20px;">
+	<div class="fcard_center" style="height:220px; font-size:19px;">
 		Tato organela se nazývá mitochondrie.
 		Mitochondrie slouží jako "buněčná elektrárna".
 		Nacházejí se téměř ve všech eukaryotických organismech (tzn. organismech s buněčným jádrem).
@@ -2504,8 +2504,8 @@ Good luck!
 	</div>
 </span>
 <span id="flashcard_mitochondria_3_front">
-	<div class="fcard_bg" src="pics/fcards_ch2.png" sx=400 sy=960 style="top:45px"></div>
-	<div class="fcard_center" style="height:180px;">
+	<div class="fcard_bg" src="pics/fcards_ch2.png" sx=400 sy=960 style="top:10px"></div>
+	<div class="fcard_center" style="height:220px;">
 		Mitochondrie se nachází téměř ve všech <span class="underline">____</span> organismech.
 	</div>
 </span>
@@ -2557,10 +2557,10 @@ Good luck!
 	</div>
 </span>
 <span id="flashcard_mitochondria_7_front">
-	<div class="fcard_bg" src="pics/fcards_ch2.png" sx=400 sy=960 style="top:40px"></div>
+	<div class="fcard_bg" src="pics/fcards_ch2.png" sx=400 sy=960 style="top:10px"></div>
 	<div class="fcard_center" style="font-size: 35px; height: 220px;">
 		Podle endosymbiotické teorie, mitochondrie vznikla asi před
-		<span class="underline">____</span> years ago
+		<span class="underline">____</span> let
 	</div>
 </span>
 <span id="flashcard_mitochondria_7_back">
@@ -2569,7 +2569,7 @@ Good luck!
 	</div>
 </span>
 <span id="flashcard_mitochondria_8_front">
-	<div class="fcard_bg" src="pics/fcards_ch2.png" sx=400 sy=960 style="top:40px"></div>
+	<div class="fcard_bg" src="pics/fcards_ch2.png" sx=400 sy=960 style="top:10px"></div>
 	<div class="fcard_center" style="font-size: 37px; height: 220px;">
 		Podle Endosymbiotické teorie mitochondrie vznikla když...
 	</div>
@@ -2629,7 +2629,7 @@ Good luck!
 
 <span id="flashcard_learndo_front">
 	<div class="fcard_bg" src="pics/fcards_ch2.png" sx=0 sy=240></div>
-	<div class="fcard_center" style="height:195px; font-size:33px;">
+	<div class="fcard_center" style="height:195px; font-size:29px;">
 		a potom zpátky k aktivitě... ↻
 	</div>
 </span>
