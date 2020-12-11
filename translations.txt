@@ -105,8 +105,10 @@ Nein
 original in English
 
 cs
-češtiň?
+Čeština
 ./cs.html
-Would you like to switch to English?
-jasńačka!
-Nah
+Chcete přepnout na češtinu?
+Jasně!
+Ne
+přeložila Karin Neumannová
+original in english
